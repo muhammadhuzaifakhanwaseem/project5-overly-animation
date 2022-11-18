@@ -1,0 +1,197 @@
+.navbar-expand-lg .navbar-nav .nav-link{
+        -webkit-text-decoration-line: none !important;
+        text-decoration-line: none !important;
+        display: block !important;
+        cursor: pointer !important;
+        font-size: 16px !important;
+        font-weight: 400 !important;
+        line-height: normal !important;
+        color: rgb(39, 39, 39) !important;
+        font-famly: 'TCCC-UnityText-Regular' !important;
+
+        padding: 1rem 1.2rem !important;
+        line-height: 0.825rem !important;
+        border-width: 1px !important;
+        border-top: 1px solid #79797900 !important;
+        white-space: nowrap !important;
+        cursor: pointer !important;
+    
+}
+.my-font{
+        font-size: 2rem;
+        line-height: 2rem;
+        color: white;
+        font-family: "TCCC-UnityHeadline-Regular", "TCCC-UnityHeadline", sans-serif !important;
+        filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.6)) !important;
+}
+.my-p-font{
+        font-size: 1.25rem;
+        line-height: 1.625rem;
+        color: white;
+        font-family: "TCCC-UnityHeadline-Regular", "TCCC-UnityHeadline", sans-serif !important;
+        filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.6)) !important;
+}
+.my-s-font{
+        font-family: "TCCC-UnityHeadline-Regular", "TCCC-UnityHeadline", sans-serif !important;
+        color: #F2F2F2 !important;
+        font-style: normal !important;
+        font-size: 0.79rem !important;
+        line-height: 1rem !important;
+        line-height: normal !important;
+}
+.my-m-font{
+        font-family: "TCCC-UnityHeadline-Regular", "TCCC-UnityHeadline", sans-serif !important;
+        color: #F2F2F2 !important;
+        font-style: normal !important;
+        font-size: 1rem !important;
+        line-height: 1rem !important;
+        line-height: normal !important;
+}
+
+.sec1{ 
+        background:url(./bg1.webp);
+        width: 100%;
+        
+        position: relative;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+}
+
+
+.sec2{
+        background-image:url(./bg2.webp);
+        width: 100%;
+        position: relative;
+       
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        display: flex;
+        justify-content: flex-end !important;
+        align-items: flex-end;
+}
+.sec3{
+        background-image:url(./bg3.webp);
+        width: 100%;
+        position: relative;
+       
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        display: flex;
+        justify-content: flex-start !important;
+        align-items: flex-end;
+}
+.sec4{
+        background-image:url(./bg4.webp);
+        width: 100%;
+        position: relative;
+       
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        display: flex;
+        justify-content: flex-end !important;
+        align-items: flex-end;
+}
+.sec5{
+        background-image:url(https://www.coca-colacompany.com/content/dam/journey/us/en/home-page/home-position-6.jpg);
+        width: 100%;
+        position: relative;
+       
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        display: flex;
+        justify-content: flex-start !important;
+        align-items: flex-end;
+}
+#color-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(-45deg, #0000008b, #37001589, #b700467f, #ffffff53);
+        animation: gradient 5s ease infinite;
+        opacity: 0.6;
+        background-size: 400% 400%;
+     }
+.p-5-my{
+        padding-top: 35rem !important;
+        padding-bottom: 10rem !important;
+        padding-right: 0;
+        padding-left: 0;
+}
+.mx-my{
+        margin-right: 5rem;
+        margin-left: 5rem;
+}
+
+footer{
+        background-color: #242424;
+}
+
+
+
+
+.navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none !important;
+    }
+
+
+
+ 
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+
+
+
+
+@media screen and (max-width: 750px) {
+        .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+        border-bottom: 1px solid rgb(31, 31, 31);
+        }
+
+        .p-5-my{
+                padding-top: 30rem !important;
+                padding-bottom: 3rem !important;
+                padding-right: 2rem !important;
+                padding-left: 2rem !important;
+        }
+        .mx-my{
+                margin-right: 0;
+                margin-left: 0;
+        }
+        .justify-content-sm-center-my{
+                justify-content: center !important;
+        }
+        .text-sm-center-my{
+                text-align: center !important;
+        }
+        
+        .border-my{
+                border-top: 1px solid rgb(218, 218, 218);
+        }
+}
